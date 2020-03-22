@@ -9,7 +9,7 @@ const Base64Decode = function (str) {
 }
 
 // var dayDreamingFile = './test.txt';
-var dayDreamingFile = './../dist/EveryDay.sh';
+var dayDreamingFile = './EveryDay.sh';
 
 var everyDayDreaming = fs.readFileSync(dayDreamingFile).toString();
 console.log(everyDayDreaming)
